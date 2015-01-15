@@ -1,0 +1,26 @@
+{
+  "name": "ci-jenkins",
+  "version": "1.0.0",
+  "description": "Continuous Integration with Jenkins",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krzyszt/ci-jenkins.git"
+  },
+  "author": "Krzysztof Kaminski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krzyszt/ci-jenkins/issues"
+  },
+  "homepage": "https://github.com/krzyszt/ci-jenkins",
+  "dependencies": {
+    "express": "^4.11.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "supertest": "^0.15.0"
+  }
+}
